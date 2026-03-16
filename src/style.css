@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/img/yousaf_editz4_7492402223587151159.jpeg");
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: brightness(40%);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  text-align: center;
+}
+@media (max-width: 980px) {
+  main,
+  footer {
+    flex-direction: column;
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 20px 290px;
+}
+.nav-links a {
+  color: rgba(255, 255, 255, 0.651);
+  text-decoration: none;
+  padding: 8px 12px;
+  font-size: 20px;
+}
+.hambuger {
+  display: none;
+}
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #33333365;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    gap: 20px;
+    padding: 10px 0;
+    width: 20%;
+    border-radius: 10px;
+  }
+
+  #menu-toggle:checked + .hambuger + .nav-links {
+    display: flex;
+    margin: 0px;
+  }
+  .hambuger {
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+  }
+  footer {
+    text-align: center;
+  }
+}
+nav a:hover {
+  color: goldenrod;
+  text-decoration: underline rgba(255, 255, 255, 0.614);
+}
+nav a.active {
+  color: goldenrod;
+  text-decoration: underline rgba(255, 255, 255, 0.614);
+}
+h1 {
+  background: linear-gradient(to right, white, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgba(255, 255, 255, 0.132);
+  border-radius: 10px;
+}
+.copy {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 20px;
+}
+input {
+  padding-left: 10px;
+  margin-bottom: 20px;
+  background-color: blanchedalmond;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+}
+textarea {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.label {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+#submit {
+  color: white;
+  background-color: rgb(23, 134, 230);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+section {
+  padding: 1rem;
+}
+.sitemap a {
+  text-decoration: none;
+  color: purple;
+  letter-spacing: 2.5px;
+}
+#others {
+  margin: 10px;
+}
+.gmail {
+  margin-top: 20px;
+}
