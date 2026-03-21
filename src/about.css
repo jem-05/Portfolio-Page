@@ -108,3 +108,11 @@ footer {
 section {
   padding: 1rem;
 }
+.sitemap a {
+  text-decoration: none;
+  color: purple;
+  letter-spacing: 2.5px;
+}
+#others {
+  margin: 10px;
+}
