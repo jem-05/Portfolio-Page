@@ -23,3 +23,13 @@ main {
   width: 70%;
   margin-left: 100px;
 }
+main img {
+  border-radius: 30rem;
+  flex-wrap: wrap;
+  border: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
