@@ -64,3 +64,17 @@ main img {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.card {
+  border: 1px solid white;
+  width: 90px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 4px;
+  padding: 0.3rem;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgba(255, 255, 255, 0.132);
+  border-radius: 10px;
+}
