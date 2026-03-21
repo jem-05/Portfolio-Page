@@ -51,6 +51,14 @@ main img {
   font-size: 20px;
   padding: 10px;
 }
+.nav-links a:hover {
+  color: goldenrod;
+  text-decoration: underline rgba(255, 255, 255, 0.614);
+}
+.nav-links a.active {
+  color: goldenrod;
+  text-decoration: underline rgba(255, 255, 255, 0.614);
+}
 .subskills {
   display: flex;
   justify-content: space-between;
