@@ -99,6 +99,9 @@ textarea {
   padding: 10px;
   border-radius: 10px;
 }
+.gmail {
+  margin-top: 20px;
+}
 footer {
   display: flex;
   justify-content: space-between;
