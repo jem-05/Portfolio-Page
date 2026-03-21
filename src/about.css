@@ -72,6 +72,31 @@ main img {
   box-shadow: 0px 0px 4px;
   padding: 0.3rem;
 }
+input {
+  padding-left: 10px;
+  margin-bottom: 20px;
+  background-color: blanchedalmond;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+}
+textarea {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.label {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+#submit {
+  color: white;
+  background-color: rgb(23, 134, 230);
+  font-weight: bold;
+  border-radius: 10px;
+}
 footer {
   display: flex;
   justify-content: space-between;
