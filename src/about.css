@@ -36,3 +36,6 @@ main img {
 .hamburger {
   display: none;
 }
+#menu-toggle {
+  display: none;
+}
