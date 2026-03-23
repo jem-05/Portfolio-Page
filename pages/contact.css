@@ -11,3 +11,14 @@ body {
   font-size: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#menu-toggle {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
