@@ -52,3 +52,15 @@ textarea {
   border-radius: 10px;
   padding-left: 10px;
 }
+.label {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+#submit {
+  color: white;
+  background-color: rgb(23, 134, 230);
+  font-weight: bold;
+  border-radius: 10px;
+}
