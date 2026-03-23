@@ -33,6 +33,14 @@ body {
   color: rgba(255, 255, 255, 0.651);
   padding: 10px;
 }
+.nav-links a:hover {
+  color: goldenrod;
+  text-decoration: underline rgba(255, 255, 255, 0.614);
+}
+.nav-links a.active {
+  color: goldenrod;
+  text-decoration: underline rgba(255, 255, 255, 0.614);
+}
 form {
   display: flex;
   flex-direction: column;
@@ -63,4 +71,18 @@ textarea {
   background-color: rgb(23, 134, 230);
   font-weight: bold;
   border-radius: 10px;
+}
+section {
+  padding: 1rem;
+}
+.sitemap a {
+  text-decoration: none;
+  color: purple;
+  letter-spacing: 2.5px;
+}
+#others {
+  margin: 10px;
+}
+.gmail {
+  margin-top: 20px;
 }
