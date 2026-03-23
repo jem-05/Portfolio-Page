@@ -6,23 +6,60 @@
     <title>Contact</title>
 </head>
 <body>
+    <!--Header section -->
     <header>
         <nav class="navbar">
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="hamburger">&#9776;</label>
 
         <ul class="nav-links">
-          <li><a href="Homepage.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#">Certifications</a></li>
-          <li><a href="Projects.html">Projects</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/pages/about.html">About</a></li>
+          <li><a href="/pages/projects.html">Projects</a></li>
+          <li><a href="/pages/contact.html" class="active">Contact</a></li>
         </ul>
       </nav>
-
     </header>
-
+    
+    <!--Main Section -->
     <main>
+        <form
+        action="https://getform.io/f/bjjekwdb"
+        method="post"
+        target="_blank"
+        autocomplete="off"
+      >
+        <h3>Send me a message.</h3>
+        <div class="contact">
+          <div>
+            <div class="label">
+              <label for="email">E-mail</label>
+            </div>
+            <div>
+              <input
+                type="email"
+                id="email"
+                required
+                placeholder="xxxson@gmail.com"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="label">
+              <label for="message">Message</label>
+            </div>
+            <textarea
+              id="message"
+              rows="7"
+              cols="30"
+              placeholder="write a message..."
+            ></textarea>
+            <div>
+              <input type="submit" id="submit" />
+            </div>
+          </div>
+        </div>
+      </form>
 
     </main>
 
