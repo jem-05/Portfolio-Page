@@ -99,3 +99,17 @@ textarea {
   border-radius: 10px;
   margin-top: 40px;
 }
+section {
+  padding: 1rem;
+}
+.sitemap a {
+  text-decoration: none;
+  color: purple;
+  letter-spacing: 2.5px;
+}
+#others {
+  margin: 10px;
+}
+.gmail {
+  margin-top: 20px;
+}
