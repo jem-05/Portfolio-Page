@@ -61,3 +61,9 @@ h2 {
 h3 {
   color: goldenrod;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 20px;
+}
