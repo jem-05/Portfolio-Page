@@ -67,3 +67,16 @@ form {
   padding: 1rem;
   gap: 20px;
 }
+input {
+  padding-left: 10px;
+  margin-bottom: 20px;
+  background-color: blanchedalmond;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+}
+textarea {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding-left: 10px;
+}
