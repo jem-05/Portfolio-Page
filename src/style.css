@@ -114,6 +114,13 @@ textarea {
   border-radius: 10px;
   padding-left: 10px;
 }
+.profileP{ 
+  width: 400px;
+  height: 450px;
+  border-radius: 100px;
+  background-position: center;
+  alt: "Profile Photo";
+}
 .label {
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -126,7 +133,6 @@ textarea {
   font-weight: bold;
   border-radius: 10px;
 }
-
 section {
   padding: 1rem;
 }
